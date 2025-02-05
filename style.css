@@ -1,0 +1,85 @@
+.kart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sudaki-h1{
+    text-align: center;
+    background-color: aqua;
+    width: 75%;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 10px 10px 5px white;
+    padding: 10px;
+    margin: 0 auto;
+}
+.balık{
+    width: 15rem;
+    border: 2px solid black;
+    border-radius: 5px ;
+    margin: 10px ;
+    transition: 0.4s;
+    box-shadow: 8px 8px 5px #ccc ;
+}   
+.balık img{
+    width: 100%;
+    height: 150px;
+}
+.başlık{
+   font-family: cursive;
+   font-weight: bolder;
+   font-size: 25px;
+   background-color: bisque;
+   border-radius: 10px;
+   letter-spacing: 1px;
+}
+.balık-img{
+position: relative;
+}
+.balık-img span{
+    position: absolute;
+    left: 0;
+}
+.metin p{
+    font-family: cursive;
+    font-size: large;
+}
+.metin{
+    background-color: white;
+    width: 100%;
+}
+.metin h2{
+    font-family: monospace;
+    border-bottom: 1px solid #ccc;
+    font-size: xx-large;
+}
+/* .balık:hover{
+    background-color: aqua;
+    font-size: larger;
+    letter-spacing: 1px;
+} */
+.balık:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+/* MOBİL VERSİON */
+@media(max-width: 870.33px){
+    .kart{
+        justify-content: space-around;
+        flex-wrap: wrap;
+         display: flex;
+         
+        } 
+        .balık{
+            width: 16rem;
+            margin: 30px;
+            box-shadow: 10px 10px 5px grey ;
+        }
+        body{
+            background-image: url(/Resimler/siyah.png);
+        }
+ 
+        .sudaki-h1{
+            box-shadow: 10px 10px 5px gray;
+        }
+    }

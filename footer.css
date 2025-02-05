@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    border-top: 4px solid #ccc;
+    width: 100%;
+    justify-content: center;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-family: inherit;
+    transition: 0.3s;
+}
+.footer ul{
+    list-style-type: none;
+    display: flex;
+}
+.footer ul li{
+    padding: 1rem;
+}
+.footer ul li a:hover{
+    color: red;
+}
